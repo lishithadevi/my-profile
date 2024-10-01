@@ -1,0 +1,68 @@
+.main-data{
+  margin-left: 100px;
+  background-color: hsl(203, 65%, 8%);;
+  width:900px;
+  position: sticky;
+  margin-top: 60px;
+  height: 660px;
+  margin-bottom: 0;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.about-me{
+  font-size: 40px;
+  margin-top:10px;
+  margin-left: 10px;
+  color:lightgoldenrodyellow;
+}
+
+.aboutt-me{
+  font-size:20px;
+  margin-left:10px;
+  line-height: 33px;
+  margin-bottom: 90px;
+}
+
+.edu-img,
+.skill-img,
+.ach-img{
+  width:280px;
+  margin-bottom: 5px;
+  height: 270px;  
+  transition: opacity 0.5s,
+  width 0.5s;
+  margin-left: 10px;
+}
+
+.ach-img{
+  margin-right: 10px;
+}
+
+.edu-img:hover,
+.skill-img:hover,
+.ach-img:hover{
+  opacity:0.8;
+  width: 290px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+
+.education-details,
+.skill-details,.ach-details{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.details{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.open-edu:hover{
+  transition:opacity 10s;
+}

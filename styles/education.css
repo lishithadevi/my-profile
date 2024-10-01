@@ -1,0 +1,45 @@
+.education{
+  background-color: hsl(203, 65%, 8%);;
+  width:900px;
+  margin-top: 60px;
+  height: 676px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: grey;
+  margin-left: 70px;
+}
+
+body{
+  background-color: black;
+  margin-top:10px;
+}
+
+.b-tech{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:40px;
+  color: lightgoldenrodyellow;
+  margin-left:30px;
+}
+
+.edu-info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:white;
+  margin-left: 30px;
+  line-height:35px;
+}
+
+.educationn{
+  font-family:'Times New Roman', Times, serif;
+  font-size:60px;
+  color:lightgoldenrodyellow;
+  margin-left: 70px;
+}
+
+.edu{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
